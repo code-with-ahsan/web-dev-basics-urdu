@@ -1,0 +1,11 @@
+p {
+  font-family: monospace
+}
+
+.outer-box {
+  border: 2px solid tomato;
+}
+
+.inner-box {
+  border: 2px solid mediumseagreen;
+}
