@@ -1,0 +1,20 @@
+p {
+  font-family: monospace
+}
+
+.outer-box {
+  border: 1px solid tomato;
+  background-color: #666;
+  color: white;
+}
+
+.inner-box {
+  border: 1px solid mediumseagreen;
+  background-color: white;
+  color: black;
+}
+
+button {
+  margin-top: 10px;
+  padding: 2px 8px;
+}
