@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: tomato;
+  color: white;
+  border: 1px solid #333;
+}
+
+.box:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.box:nth-child(2) {
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.boxes {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  height: 500px;
+  align-content: center;
+  background-color: aquamarine;
+  align-items: center;
+  justify-content: center;
+}
