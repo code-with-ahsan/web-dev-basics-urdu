@@ -1,0 +1,25 @@
+.outer-box {
+  padding: 20px;
+  border: 1px dotted tomato;
+  text-align: center;
+  background-color: seagreen;
+  max-width: fit-content;
+  color: white;
+}
+
+
+.box {
+  padding: 30px;
+  border: 1px dashed aquamarine;
+  text-align: center;
+  max-width: 100px;
+  background-color: tomato;
+  color: white;
+  transition: all ease 0.2s;
+}
+
+.box:hover {
+  transform: matrix(1.5, 0, 0, 1.5, 300, 300);
+}
+
+/* matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
